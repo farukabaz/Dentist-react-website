@@ -4,7 +4,7 @@ import './AboutUs.css'
 export default class AboutUs extends Component {
     render() {
         return (
-            <div id="aboutus" className='aboutus-container'>
+            <div id="services" className='aboutus-container'>
                 <div className='instructions-heading'>
                 <h1>Usluge</h1>
                 <p>DR. Hajradinovic ordinacija</p>

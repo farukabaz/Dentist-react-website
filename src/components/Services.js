@@ -7,7 +7,7 @@ import amar from './images/amar.jpg'
 export default class Services extends Component {
     render() {
         return (
-            <div id="services" className='services-container'>
+            <div id="aboutus" className='services-container'>
 
                 <h1>Naš tim</h1>
             
