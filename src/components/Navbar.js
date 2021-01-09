@@ -30,7 +30,7 @@ export default class Navbar extends Component {
                                 to="services" 
                                 spy={true} 
                                 smooth={true}>
-                                    O nama
+                                    Usluge
                                 </Link>
                             </li>
                             <li className='nav-item'>
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                                 to="aboutus" 
                                 spy={true} 
                                 smooth={true}>
-                                    Usluge
+                                    O nama
                                 </Link>
                             </li>
                             <li className='nav-item'>
