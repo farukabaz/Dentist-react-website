@@ -1,0 +1,47 @@
+.services-container {
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.services-container > h1 {
+  color: black;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.services-header {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 4vh;
+  font-family: "Dancing Script", cursive;
+}
+.left-side {
+  margin-left: -40%;
+  margin-top: -10%;
+}
+.name {
+  color: black;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  justify-content: center;
+  align-items: center;
+}
+.media-icon {
+  color: black;
+  font-size: 1.5rem;
+}
+.linkedin {
+  margin-right: 10px;
+}
+.right-side {
+  margin-right: -40%;
+  margin-top: -20%;
+}
+.right-side > p {
+  color: black;
+  font-size: 1.4rem;
+}
