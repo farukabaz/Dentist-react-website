@@ -36,7 +36,7 @@ export default class Navbar extends Component {
                             <li className='nav-item'>
                                 <Link 
                                 className='nav-links' 
-                                to="aboutus" 
+                                to="ourteam" 
                                 spy={true} 
                                 smooth={true}>
                                     O nama

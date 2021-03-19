@@ -1,31 +1,30 @@
 import React, {Component} from 'react'
 import './Services.css'
-import {FaFacebookF} from 'react-icons/fa'
-import ReactRoundedImage from 'react-rounded-image'
-import amar from './images/amar.jpg'
 
 export default class Services extends Component {
     render() {
         return (
-            <div id="aboutus" className='services-container'>
+            <div id="services" className='aboutus-container'>
+                <div className='instructions-heading'>
+                <h1>Usluge</h1>
+                <p>DR. Hajradinovic ordinacija</p>
+            </div>
 
-                <h1>Naš tim</h1>
-            
-        <ReactRoundedImage 
-        image={amar}
-        roundedColor='lightblue'
-        imageWidth='400'
-        imageHeight='300'
-        roundedSize='20'
-        />
-
-        <h4>Dr. Sci. dr. Hajradinović Amar</h4>
-        <a 
-          href='https://www.facebook.com/amar.hajradinovic'
-          className='media-icon'>
-            <FaFacebookF/>    
-        </a>
-        </div>
+            <div className='instructions-links'>
+                <div className='instructions-links-wraper'>
+                    <div className='instructions-links-items'>
+                        <a>Stomatološka ordinacija “Hajradinović” je ordinacija opće stomatologije,  gdje možete dobiti usluge iz oblasti oralne hirurgije, dječije i preventivne stomatologije, protetike, endodoncije i restaurativne stomatologije.</a>
+                        <a>Naš tim čine specijalista oralne hirurgije, specijalista dječije i preventivne stomatologije te doktor dentalne medicine.</a>
+                    </div>
+                </div>
+                <div className='instructions-links-wraper'>
+                    <div className='instructions-links-items'>
+                        <img className='img'
+                        src='/images/ordinacija.jpg'/>
+                    </div>
+                </div>
+            </div>
+            </div>
         )
     }
 }
